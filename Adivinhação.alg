@@ -1,14 +1,14 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 23/09/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 resposta, r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10: caractere
    r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21: caractere
    r22, r23, te: caractere
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 escreval("            ====== Pense em um dos meios de transporte a seguir ======")
    escreval("Trator")
@@ -16,12 +16,12 @@ escreval("            ====== Pense em um dos meios de transporte a seguir ======
    escreval("Bicicleta")
    escreval("Trem")
    escreval("Carro")
-   escreval("Caminhão")
-   escreval("Ônibus")
+   escreval("CaminhÃ£o")
+   escreval("Ã”nibus")
    escreval("Paraquedas")
-   escreval("Balão")
-   escreval("Avião")
-   escreval("Helicóptero")
+   escreval("BalÃ£o")
+   escreval("AviÃ£o")
+   escreval("HelicÃ³ptero")
    escreval("Submarino")
    escreval("Barco")
    escreval("Navio")
@@ -30,7 +30,7 @@ escreval("            ====== Pense em um dos meios de transporte a seguir ======
 
 
 
-escreval("O transporte que você pensou é Aéreo, Terrestre ou Aquático?")
+escreval("O transporte que vocÃª pensou Ã© AÃ©reo, Terrestre ou AquÃ¡tico?")
 leia(te)
 escolha te
 
@@ -38,23 +38,23 @@ caso "Terrestre"
              escreval("Cabe apenas uma pessoa? ")
                 leia(r0)
                  se (r0 = "sim") entao
-               escreval("É pesado? ")
+               escreval("Ã‰ pesado? ")
                leia(r1)
 
        se (r1 = "sim") entao
-          escreval("O transporte que você pensou é um TRATOR!")
+          escreval("O transporte que vocÃª pensou Ã© um TRATOR!")
 
                  senao
               escreval("Tem pedal? ")
                 leia(r2)
             se(r2 = "sim") entao
-       escreval("O transporte que você pensou é uma BICICLETA!")
+       escreval("O transporte que vocÃª pensou Ã© uma BICICLETA!")
 
        senao
       escreval("Usa capacete? ")
       leia(r3)
       se(r3 = "sim") entao
-      escreval("O transporte que você pensou é uma MOTO!")
+      escreval("O transporte que vocÃª pensou Ã© uma MOTO!")
       fimse
         fimse
          fimse
@@ -67,26 +67,26 @@ caso "Terrestre"
                escreval("Usa trilho? ")
                     leia(r5)
                 se(r5 = "sim") entao
-           escreval("O transporte que você pensou é um TREM!")
+           escreval("O transporte que vocÃª pensou Ã© um TREM!")
 
             senao
               escreval("Anda na pista? ")
                   leia(r6)
                   se(r6 = "sim") entao
-                     escreval("É alto? ")
+                     escreval("Ã‰ alto? ")
                       leia(r7)
                     se(r7 = "sim") entao
                escreval("Usa carroceria? ")
               leia(r8)
 
             se(r8 = "sim") entao
-        escreval("O transporte que você pensou é um CAMINHÃO!")
+        escreval("O transporte que vocÃª pensou Ã© um CAMINHÃƒO!")
 
         senao
         escreval("Pode ter cobrador? ")
         leia(r9)
         se(r9 = "sim") entao
-        escreval("O transporte que você pensou é um ÔNIBUS!")
+        escreval("O transporte que vocÃª pensou Ã© um Ã”NIBUS!")
         FimSe
               FimSe
             FimSe
@@ -96,10 +96,10 @@ caso "Terrestre"
               FimSe
 
         se(r7 = "nao") entao
-        escreval("É veículo leve? ")
+        escreval("Ã‰ veÃ­culo leve? ")
         leia(r10)
         se(r10 = "sim") entao
-        escreval("O transporte que você pensou é um CARRO!")
+        escreval("O transporte que vocÃª pensou Ã© um CARRO!")
          FimSe
            FimSe
            fimalgoritmo
@@ -112,20 +112,20 @@ caso "Terrestre"
 
 
 
-caso "Aéreo"
+caso "AÃ©reo"
                        escreval("Precisa pular? ")
                    leia(r12)
                 se(r12 = "sim") entao
-                escreval("O transporte que você pensou é uma ASA DELTA!")
+                escreval("O transporte que vocÃª pensou Ã© uma ASA DELTA!")
 
                 senao
                 escreval("Viaja dentro? ")
                       leia(r13)
                    se(r13 = "sim") entao
-                   escreval("É devagar? ")
+                   escreval("Ã‰ devagar? ")
                  leia(r14)
               se(r14 = "sim") entao
-           escreval("O transporte que você pensou é BALÃO!")
+           escreval("O transporte que vocÃª pensou Ã© BALÃƒO!")
 
 
                 senao
@@ -135,7 +135,7 @@ caso "Aéreo"
                   escreval("Possui asas fixas? ")
                   leia(r16)
                     se(r16 = "sim") entao
-                escreval("O transporte que você pensou é um AVIÃO!")
+                escreval("O transporte que vocÃª pensou Ã© um AVIÃƒO!")
               FimSe
                 FimSe
               FimSe
@@ -146,7 +146,7 @@ caso "Aéreo"
                  escreval("Faz voo vertical? ")
                  leia(r17)
                  se(r17 = "sim") entao
-                 escreval("O transporte que você pensou é um HELICÓPTERO!")
+                 escreval("O transporte que vocÃª pensou Ã© um HELICÃ“PTERO!")
 
                    FimSe
                      FimSe
@@ -154,21 +154,21 @@ caso "Aéreo"
 
 
 
-caso "Aquático"
+caso "AquÃ¡tico"
 
-              escreval("É coberto d'água? ")
+              escreval("Ã‰ coberto d'Ã¡gua? ")
                    leia(r18)
                     se(r18 = "sim") entao
-                     escreval("O transporte que você pensou é um SUBMARINO!")
+                     escreval("O transporte que vocÃª pensou Ã© um SUBMARINO!")
                      senao
                      se(r18 = "nao") entao
-                       escreval("Navega na água? ")
+                       escreval("Navega na Ã¡gua? ")
                           leia(r19)
                             se(r19 = "sim") entao
                                escreval("Possui vela? ")
                              leia(r20)
                          se(r20 = "sim") entao
-                       escreval("O transporte que você escolheu é um BARCO!")
+                       escreval("O transporte que vocÃª escolheu Ã© um BARCO!")
 
                        fimse
                          fimse
@@ -181,10 +181,10 @@ caso "Aquático"
                                escreval("Tem motor? ")
                                   leia(r21)
                                   se(r21 = "sim") entao
-                                  escreval("É alto? ")
+                                  escreval("Ã‰ alto? ")
                                   leia(r22)
                              se(r22 = "sim") entao
-                          escreval("O transporte que você pensou é um NAVIO!")
+                          escreval("O transporte que vocÃª pensou Ã© um NAVIO!")
                           fimse
                           fimse
                           fimse
@@ -195,10 +195,8 @@ caso "Aquático"
                                   escreval("Pode ser descoberto? ")
                                     leia(r23)
                                  se(r23 = "sim") entao
-                              escreval("O transporte que você escolheu é uma LANCHA!")
+                              escreval("O transporte que vocÃª escolheu Ã© uma LANCHA!")
                          FimSe
                          FimSe
                          fimescolha
                                    fimalgoritmo
-
-
