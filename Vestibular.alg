@@ -1,14 +1,14 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 23/09/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 cont, aprovados, reprovado, ap1, ap2, ap3, ap4: inteiro
 aluno, melhor_aluno, tu, ma1, ma2, ma3, ma4: caractere
 nota, melhor_nota, mn1 , mn2, mn3, mn4: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreval("Insira nome e nota dos alunos da turma A")
 
 
@@ -215,4 +215,3 @@ escreval("Insira nome e nota dos alunos da turma A")
           
 
           fimalgoritmo
-
