@@ -1,4 +1,4 @@
-print('          ---- Insira seu nome e data de nascimento para sabermos sua idade ----')
+print('          ---- Insira seu nome e ano de nascimento para sabermos sua idade ----')
 print('')
 rodar = True
 while(rodar==True):
