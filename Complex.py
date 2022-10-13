@@ -14,7 +14,9 @@ while(True):
        opc = int(input(str('Qual é a sua opção? ')))
 
 
-       if (opc < 1 or opc > 4): break
+       if (opc < 1 or opc > 4): 
+            print('Calculadora encerrada')
+            break
 
        print("\nPrimeiro número:\n")
        a = complex(input())
