@@ -1,0 +1,13 @@
+								Grafos no contexto tecnológico
+
+
+
+
+Sendo estruturas de dados ou matemáticas, é o estudo de um conjunto que há a união entre vértices e arestas, assim havendo a relação entre esses objetos.
+Sendo assim, vendo a teoria dos grafos, vamos conseguindo ver formas de aplica-la no nosso cotidiano, assim ao invés de darmos soluções colossais para problemas 
+ordinários e pequenos, conseguimos resolve-los de forma mais simples, assim nos poupando tempo.
+
+O uso da teoria dos grafos é usado em diversas formas e contextos, um deles sendo na área de tecnolgia, assim facilitando a vida dos usuários. 
+
+Dois exemplos na aplicação de grafos na tecnologia é na rede social Facebook, quando ela nos recomenda amigos em comum com nossas amizades e 
+também para nos ajudar a escolhar a melhor rota possível em aplicativos de mapas, como por exemplo o GoogleMaps.
