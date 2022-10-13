@@ -9,7 +9,7 @@ while(True):
        2 - Subtração 
        3 - Multiplicação 
        4 - Divisão 
-       5 - Sair''')
+       0 - Sair''')
        print('')
        opc = int(input(str('Qual é a sua opção? ')))
 
