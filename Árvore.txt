@@ -11,7 +11,7 @@ Lista1 = 45,20,30,60,81,97,100,7,8,4
                   4  8         97
                                 \
                                 100
-Inserindo novo valor e removendo um nó com dois filhos
+Inserindo novo valor e removendo um nó com dois filhos:
 
 			 45
 	               /    \
@@ -32,7 +32,7 @@ Lista2 = 15,6,18,3,7,16,20,4
 		     \
 		      4	
 
-Removendo um valor e adcionando outro
+Removendo um valor e adicionando outro:
 
 			 15
 		       /   \
