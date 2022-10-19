@@ -1,0 +1,58 @@
+Classifique dois objetos materiais e dois abstratos. Insira, no mínimo, três métodos e três atributos para cada.
+
+					Materiais
+
+Classe: Fone
+
+Atributos
+modelo: G540
+cor: preto e azul
+tamanho: 20cm x 42cm
+
+Métodos:
+Conectar
+Desconectar
+Ajustar volume
+
+Classe: Cachorro
+
+Atributos
+nome: Marley
+cor: branco
+altura: 65cm
+
+Métodos:
+Comer
+Dormir
+Correr
+
+
+					Abstrato
+
+
+Classe: Veículo
+
+Atributos:
+nome: Moto
+cor: preto
+altura: 1m 
+
+Métodos:
+Acelerar
+Freiar
+Abastecer
+
+Classe: Calçado
+
+Atributos:
+nome: sandália
+cor: azul
+comprimento: 25cm
+
+Métodos:
+Calçar
+Tirar
+Dobrar
+
+
+
