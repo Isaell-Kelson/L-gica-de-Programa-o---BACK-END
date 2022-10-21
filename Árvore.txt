@@ -16,8 +16,8 @@ Inserindo novo valor e removendo um nó com dois filhos:
 			 45
 	               /    \
                      20      60 
-                      \     /  \
-                       30  55   81
+                    / \     /  \
+                   8   30  55   81
                                  \
                                   97
                                    \
