@@ -1,0 +1,13 @@
+							Padrão de projeto Strategy
+
+
+
+	O desenvolvimento de sofwares corporativos tem a tendência de crescer e se tornar maiores, mais refinadas e difíceis de se manter ao longo do tempo, tendo
+em sua forma uma das estruturas mais complexas, que é a lógica condicional.
+	
+	Para uma melhor facilidade de lidar com essa complexidade, usa-se o padrão Strategy, também conhecido como Policy, que é um padrão comportamental,que
+pode definir diferentes comportamentos dependendo do que for passado e sugere a elaboração de uma família de classes, sendo que cadafamília dessas classes é 
+destinada para cada vez que um algoritmo varia, em resumo ela é uma estrutura de herança, assim cada subclasse possui uma variação do algoritmo. Seu objetivo é 
+encapsular um algoritmo em um objeto, fornecendo uma interface genérica, assim suportando uma maior variedade de algoritmos e facilitando a troca de algoritmos 
+criados com uma mesma função.
+	
