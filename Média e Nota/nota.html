@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Curso SOFTEX</title>
+    Primeira nota <input id="nota1" type="number"> <br />
+    Segunda  nota <input id="nota2" type="number"> <br />
+    <button onclick="nota()">Calcular Notas</button>
+
+    <script type="text/javascript">
+
+    function nota(){
+        var nota1 = parseFloat(document.getElementById("nota1").value);
+        var nota2 = parseFloat(document.getElementById("nota2").value);
+        var media = 21 - (nota1 + nota2)
+
+         if(media > 10)      
+            alert("Você está REPROVADO!");
+    
+        else
+            alert("Você precisa de "+media+" para passar")     
+
+    }
+
+ </script>
+
+ </head>
+</html>
