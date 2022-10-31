@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+
+        <script>
+            var primeiroNum = parseInt(prompt('Digite o primeiro número: '));
+
+            do {
+                var operacao = prompt('Digite uma das operações: +, -, /, *');
+            }while(operacao!="+" && operacao!="-" && operacao!="/" && operacao!="*")
+
+            var seugundoNum = parseInt(prompt('Digite o segundo número: '));
+            
+            var resultado
+            
+        
+
+            switch(operacao){
+                case "+":
+                    resultado = primeiroNum+seugundoNum;
+                    alert(resultado)
+                    break
+                case "-":
+                    resultado = primeiroNum-seugundoNum;
+                    alert(resultado)
+                    break  
+                case "/":
+                    resultado = primeiroNum/seugundoNum;
+                    if ((primeiroNum%seugundoNum)!=0){
+                        alert(resultado+'A sobra é: '+primeiroNum%seugundoNum)
+                        
+                    }
+                    else{
+                        alert(resultado)
+                    }
+
+                    break  
+                case "*":
+                    resultado = primeiroNum*seugundoNum;
+                    alert(resultado)
+                    break
+            }
+        </script>
+
+
+
+    </body>
+
+</html>
