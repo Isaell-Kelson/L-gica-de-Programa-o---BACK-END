@@ -1,0 +1,11 @@
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\bin\Debug\netcoreapp2.1\Calc_Strategy.deps.json
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\bin\Debug\netcoreapp2.1\Calc_Strategy.runtimeconfig.json
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\bin\Debug\netcoreapp2.1\Calc_Strategy.runtimeconfig.dev.json
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\bin\Debug\netcoreapp2.1\Calc_Strategy.dll
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\bin\Debug\netcoreapp2.1\Calc_Strategy.pdb
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\obj\Debug\netcoreapp2.1\Calc_Strategy.csprojAssemblyReference.cache
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\obj\Debug\netcoreapp2.1\Calc_Strategy.csproj.CoreCompileInputs.cache
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\obj\Debug\netcoreapp2.1\Calc_Strategy.AssemblyInfoInputs.cache
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\obj\Debug\netcoreapp2.1\Calc_Strategy.AssemblyInfo.cs
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\obj\Debug\netcoreapp2.1\Calc_Strategy.dll
+c:\cshp_dezembro_2018\Calc_Strategy\Calc_Strategy\obj\Debug\netcoreapp2.1\Calc_Strategy.pdb
